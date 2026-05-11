@@ -1,0 +1,17 @@
+{
+  "name": "quiz-automation-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright (TypeScript) tests for the KTB & IFS QA automation assignment.",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

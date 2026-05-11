@@ -1,0 +1,22 @@
+# Robot Framework
+robot/.venv/
+robot/results/
+robot/log.html
+robot/output.xml
+robot/report.html
+**/__pycache__/
+*.pyc
+
+# Playwright / Node
+playwright/node_modules/
+playwright/playwright-report/
+playwright/test-results/
+playwright/blob-report/
+playwright/.cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+vi.save
